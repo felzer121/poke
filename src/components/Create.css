@@ -1,0 +1,17 @@
+.pokemonList {
+  display: flex;
+  padding: 0 4em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.pokemonList__item {
+  display: flex;
+  width: 300px;
+  padding: .5em;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin-bottom: 1em;
+  border: aliceblue 1px solid;
+  flex-direction: column;
+  align-items: center;
+}
